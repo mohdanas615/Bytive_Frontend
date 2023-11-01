@@ -270,7 +270,7 @@ export default function UserForm(props) {
           </div>
           <div className="profile-preview">
             {SelectedImage && (
-              <img src={SelectedImage} width="100" height="100" />
+              <img alt="userImage" src={SelectedImage} width="100" height="100" />
             )}
           </div>
         </div>
