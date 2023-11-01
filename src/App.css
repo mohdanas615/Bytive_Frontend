@@ -36,3 +36,217 @@
     transform: rotate(360deg);
   }
 }
+.flex-container{
+  flex-direction: row;
+}
+.bg{
+  background-image: url(./components/images/background.jpeg);
+  height: 80vh;
+}
+.main{
+  display:flex;
+  flex-direction: row;
+  padding: 5%;
+}
+.searchbox{
+  max-width: 18rem;
+}
+#user_Detail_card{
+  margin-left: 15px;
+}
+#heading{
+  padding-left: 5%;
+}
+.user-detail{
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width:768px )  {
+  .main{
+      display:flex;
+      flex-direction: column;}
+}
+.sort-family{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+ 
+}
+.d-flex{
+  height: 48px;
+}
+.table{
+  display: flex;
+  flex-direction: column;
+}
+
+.equal-spacing-table{
+ width: 100%;
+  background-color: lightgrey;
+}
+.equal-spacing-table th{
+  text-align: center;
+  padding: 20px;
+}
+.equal-spacing-table tr{
+  text-align: center;
+  padding: 20px;
+}
+.userForm-detail{
+  display: flex;
+
+}
+.userFrom-detail1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+.userFrom-detail2{
+  margin-left: 50px;
+}
+.user-detail1-child1{
+  display: flex;
+}
+.user-detail1-child2{
+  display: flex;
+}
+.vertical-line{
+  width: 3px;
+  height: 450px;
+  background-color: black;
+  margin-left: 75px;
+}
+.vertical-line2{
+  width: 3px;
+  height: 500px;
+  background-color: black;
+  margin-left: 100px;
+}
+.userForm-Profile{
+  display: flex;
+}
+.Field-of-Interest{
+  margin-top: 100px;
+  margin-left: 5px;
+}
+#text{
+  margin-left: 20px;
+}
+.outer{
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  
+  }
+  .form-group{
+    width: 210%;
+  }
+  .form-control{
+      margin-bottom: 5%;
+  }
+  #inputPassword3{
+      margin-bottom: 5%;
+  }
+  .img-input{
+    display: inline;
+  }
+  .profile-preview{
+ display: inline;
+  }
+  .form-control{
+margin-top: 0px;
+font-size: 16px;
+  }
+  .btn-outline-primary{
+    height: 50px;
+    width: 150px;
+  }
+  .search-with-button{
+font-size: 20px;
+  }
+  #birthday{
+    height: 50px;
+    width: 200px;
+  }
+  #text{
+    margin-left: 100px;
+  }
+  #Email{
+    margin-left: 105px;
+  }
+  #Password{
+    margin-left: 77px;
+  }
+  #confirmPassword{
+    margin-left: 16px;
+  }
+  #DG{
+    margin-left: 9px;
+    width: 187px;
+  }
+  #GitHub{
+margin-left: 93px;
+  }
+  #Website{
+    margin-left: 87px;
+  }
+  #bio{
+    margin-left: 120px;
+  }
+  .submitForm{
+   margin-top: 70px;
+   margin-left: 200px;
+  }
+  #seeking-option{
+    margin-left: 50px;
+  }
+  #techStack-option{
+    margin-left:32px;
+  }
+  .card-seeking{
+    margin-left: 10%;
+  }
+  .card-div3{
+    margin-top: 2%;
+  }
+  .flex-wrap{
+    width: 100%;
+  }
+  .px-2{
+    width:65%;
+  }
+  .border-25{
+    
+  }
+  .sort-box-detail{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    outline: solid;
+    outline-width: thin;
+  }
+  .sort-box-user{
+    width: 50%;
+    margin-left: 2%;
+  }
+  #DM-profile{
+    margin-right: 5%;
+  }
+  #delete-profile{
+    margin-right: 5%;
+  }
+#View-profile{
+    margin-right: 5%;
+  }
+  .sort-box-button{
+    margin-top: 3%;
+    width: 30%;
+  }
+  

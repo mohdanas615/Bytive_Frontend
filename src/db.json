@@ -1,0 +1,164 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Aashi Siddiqui",
+      "gravatar": "",
+      "techStack": [
+        "MySql"
+      ],
+      "location": "Lucknow",
+      "fieldOfInterest": "Backend",
+      "seeking": [
+        "Internship"
+      ],
+      "bio": " I'm seeking an internship where I can apply my skills in content creation and increase my experience in Frontend.",
+      "githuburl": "github.com",
+      "twitterurl": "twitter.com",
+      "website": "visit@gmail.com",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 2,
+      "name": "Arish Rehman Khan",
+      "gravatar": "",
+      "techStack": [
+        "ReactJS",
+        "NodeJS",
+        "mongoDB"
+      ],
+      "location": "Gurugram",
+      "fieldOfInterest": "Full Stack",
+      "seeking": [
+        "Remote"
+      ],
+      "bio": " I'm seeking a full-time opportunity where I can apply my programming skills.",
+      "githuburl": "github.com",
+      "twitterurl": "twitter.com",
+      "website": "visit@gmail.com",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 3,
+      "name": "Mohd Anas Ansari",
+      "gravatar": "",
+      "techStack": [
+        "ReactJS",
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "location": "Shahjahanpur",
+      "fieldOfInterest": "Frontend",
+      "seeking": [
+        "full-time"
+      ],
+      "bio": "Enthusiastic Web Developer with a proven track record of designing and developing appealing User Interfaces",
+      "githuburl": "github.com",
+      "twitterurl": "twitter.com",
+      "website": "visit@gmail.com",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 4,
+      "name": "Khushnuma Siddiqui",
+      "gravatar": "",
+      "techStack": [
+        "NodeJS",
+        "JavaScript"
+      ],
+      "location": "Lucknow",
+      "fieldOfInterest": "Backend",
+      "seeking": [
+        "remote"
+      ],
+      "bio": "A results-driven Front-End Developer with five years of experience, specializing in UI design, web development, project management, and Java.",
+      "githuburl": "github.com",
+      "twitterurl": "twitter.com",
+      "website": "visit@gmail.com",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 5,
+      "name": "zoya",
+      "gravatar": "",
+      "techStack": [
+        "NodeJS",
+        "JavaScript"
+      ],
+      "location": "Lucknow",
+      "fieldOfInterest": "Frontend",
+      "seeking": [
+        "remote"
+      ],
+      "bio": "ambitious student",
+      "githuburl": "github.com",
+      "twitterurl": "twitter.com",
+      "website": "visit@gmail.com",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 7,
+      "name": "Mohd Areeb Ansari",
+      "email": "mohdareeb374@gmail.com",
+      "password": "mohdareeb",
+      "github": "mohdareeb123",
+      "website": "mohd.co.in",
+      "location": "Gurugram",
+      "bio": "Data Engineer with expertise in AI and Machine Learning",
+      "image": "blob:http://localhost:3000/fe9fbf50-3be4-4c30-ac20-5e17de410bd7",
+      "fieldOfInterest": "Backend",
+      "seeking": "Remote",
+      "techStack": "PostgreSQL"
+    },
+    {
+      "id": 8,
+      "name": "nnn",
+      "email": "",
+      "password": "",
+      "github": "",
+      "website": "",
+      "location": "",
+      "bio": "",
+      "image": null,
+      "fieldOfInterest": "Field Of Interest",
+      "seeking": "",
+      "techStack": "Tech Stack"
+    },
+    {
+      "name": "Harsh",
+      "password": "harsh@123",
+      "techStack": [
+        "HTML/CSS"
+      ],
+      "location": "Gurugram",
+      "fieldOfInterest": "Frontend",
+      "seeking": [
+        "full-time"
+      ],
+      "bio": "Seeking for remote job in Frontend",
+      "githuburl": "harsh_123",
+      "twitterurl": "ananomusHarsh",
+      "website": "harsh_visit.com",
+      "linkedin": "harsh123",
+      "id": 9
+    },
+    {
+      "name": "Harsh",
+      "password": "harsh@123",
+      "techStack": [
+        "HTML/CSS"
+      ],
+      "location": "Gurugram",
+      "fieldOfInterest": "Frontend",
+      "seeking": [
+        "full-time"
+      ],
+      "bio": "Seeking for remote job in Frontend",
+      "githuburl": "harsh_123",
+      "twitterurl": "ananomusHarsh",
+      "website": "harsh_visit.com",
+      "linkedin": "harsh123",
+      "id": 10
+    }
+  ]
+}
