@@ -42,6 +42,7 @@ export default function Header(props) {
 
   useEffect(() => {
     filterTheData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [TechStack, FieldOfInterest]);
 
   function filterTheData() {

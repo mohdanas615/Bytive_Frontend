@@ -34,7 +34,6 @@ export default function UserForm(props) {
   const [WebsiteLink, setWebsiteLink] = useState("");
   const [City, setCity] = useState("");
   const [Text, setText] = useState("");
-  const [HireStatus, setHireStatus] = useState("");
   const [ID, setID] = useState("");
   const [SelectedImage, setSelectedImage] = useState(null);
   const [FieldOfInterest, setFieldOfInterest] = useState("Field Of Interest");
@@ -167,7 +166,6 @@ export default function UserForm(props) {
               className="form-check-input"
               type="checkbox"
               id="flexSwitchCheckedDefault"
-              value={HireStatus}
             />
           </div>
         </div>

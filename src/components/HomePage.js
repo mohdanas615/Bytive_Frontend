@@ -68,7 +68,7 @@ export default function HomePage() {
                 </div>
                 <div className="card-div3">
                   <h6 className="card-seeking">{data[i].seeking}</h6>
-                  <a href="#" className="btn btn-primary">
+                  <a className="btn btn-primary">
                     View Profile
                   </a>
                 </div>
