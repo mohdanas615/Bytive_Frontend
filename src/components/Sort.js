@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import avatar from './images/avatar.png'
 
 export default function Header(props) {
   const fieldOfInterests = ["Frontend", "Backend", "Full Stack"];
@@ -39,7 +40,6 @@ export default function Header(props) {
     setFieldOfInterest(e.target.value);
     console.log(FieldOfInterest);
   };
-
   useEffect(() => {
     filterTheData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -103,11 +103,12 @@ export default function Header(props) {
 
   return (
     <>
-      <div className="temp mx-5 my-3">Sort by</div>
+      <div className="temp mx-5 my-3">
+        <h4 id="sort-filter">Sort by</h4></div>
       <div className="sort-family">
         <div className="sort1">
           <select
-            className="form-select form-select-lg mb-3 mx-5 w-20"
+            className="form-select form-select-lg mx-5 w-20"
             aria-label=".form-select-lg example"
             onChange={handleFieldOfInterest}
           >
@@ -119,7 +120,7 @@ export default function Header(props) {
         </div>
         <div className="sort2">
           <select
-            className="form-select form-select-lg mb-3 mx-5 w-20"
+            className="form-select form-select-lg mx-5 w-20"
             aria-label=".form-select-lg example"
             onChange={handleTechStack}
           >
@@ -129,13 +130,13 @@ export default function Header(props) {
             })}
           </select>
         </div>
-        <div className="sort3 mx-5">
+        <div className="sort3">
           <form action="/action_page.php">
             <label htmlFor="birthday">Sort by Cohort</label>
             <input type="date" id="birthday" name="birthday" />
           </form>
         </div>
-        <form>
+        <form id="keywordSearch-Form">
           <fieldset className="search-with-button">
             <legend>Search by Keyword</legend>
             <input
@@ -162,7 +163,8 @@ export default function Header(props) {
             <>
               <div className="sort-box-detail" key={i}>
                 <div className="profile-picture">
-                  <img src="//placehold.it/150" alt="" />
+                  {/* <img src="//placehold.it/150" alt="" /> */}
+                  <img id="profile-photo"src={avatar} alt=""/>
                 </div>
                 <div className="sort-box-user">
                   <h4 id="sort-box-username">{value.name}</h4>

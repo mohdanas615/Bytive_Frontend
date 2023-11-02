@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import avatar from './images/avatar.png'
 
 export default function HomePage() {
   const [data, setData] = useState([]);
@@ -58,7 +59,8 @@ export default function HomePage() {
                 key={i}
               >
                 <div className="card-header border-25">
-                  <img src="//placehold.it/150" alt="" />
+                  {/* <img src="//placehold.it/150" alt="" /> */}
+                  <img id="home-profile-photo"src={avatar} alt="" />
                 </div>
                 <div className="card-block px-2">
                   <h4 className="card-title">{data[i].name}</h4>

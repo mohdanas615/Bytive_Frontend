@@ -58,7 +58,9 @@
 }
 
 #user_Detail_card {
-  margin-left: 15px;
+  width: 90%;
+  margin-left: 10%;
+  margin-bottom: 1%;
 }
 
 #heading {
@@ -83,7 +85,12 @@
   justify-content: space-around;
 
 }
-
+.w-20{
+  width: 100%;
+}
+#sort-filter{
+  margin-left: 2%;
+}
 .d-flex {
   height: 48px;
 }
@@ -263,6 +270,7 @@
 }
 
 .px-2 {
+  margin-top: 1%;
   width: 65%;
 }
 
@@ -301,4 +309,21 @@
 .sort-box-button {
   margin-top: 3%;
   width: 30%;
+}
+.profile-picture{
+  width: 10%;
+}
+#profile-photo{
+height: 100%;
+width: 80%;
+}
+#home-profile-photo{
+  width: 80%;
+  height: 100%;
+}
+.border-25{
+  width: 18%;
+}
+.mb-3{
+  width: 150%;
 }
