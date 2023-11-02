@@ -40,6 +40,7 @@ export default function UserForm(props) {
   const [Seeking, setSeeking] = useState([]);
   const [TechStack, setTechStack] = useState([]);
   const [passwordsMatch, setPasswordsMatch] = useState(true);
+  const [passwordLengthMatch, setPasswordLengthMatch] = useState(true);
   const [NameValidated, setNameValidated] = useState(true);
 
   const handleNameChange = (e) => {
@@ -101,21 +102,40 @@ export default function UserForm(props) {
         setID(data[data.length - 1].id);
       });
   }, []);
+  // const validateFormData = () => {
+  //   if (Name.length > 2) {
+  //     setNameValidated(true);
+  //     if (Password.length > 8 && Password === ConfirmPassword) {
+  //       setPasswordsMatch(true);
+  //       submitForm();
+  //     } else {
+  //       setPasswordsMatch(false);
+  //     }
+  //   } else {
+  //     setNameValidated(false);
+  //   }
+  // };
   const validateFormData = () => {
     if (Name.length > 2) {
       setNameValidated(true);
-      if (Password.length > 8 && Password === ConfirmPassword) {
-        setPasswordsMatch(true);
-        submitForm();
-      } else {
+      if (Password.length > 7) {
+        setPasswordLengthMatch(true);
+        if (Password === ConfirmPassword) {
+          setPasswordsMatch(true);
+          submitForm();
+        }
+      else {
         setPasswordsMatch(false);
       }
     } else {
-      setNameValidated(false);
+      setPasswordLengthMatch(false);
+    }
+  }
+    else{
+setNameValidated(false)
     }
   };
   const submitForm = (e) => {
-    
     fetch("https://backend-4ezs.onrender.com/students", {
       method: "POST",
       headers: {
@@ -137,10 +157,9 @@ export default function UserForm(props) {
       }),
     })
       .then((response) => {
-        response.json()
-        alert("Form Created")
-      }
-      )
+        response.json();
+        alert("Form Created");
+      })
       .catch((error) => console.error(error));
   };
   return (
@@ -194,7 +213,9 @@ export default function UserForm(props) {
             onChange={handlePasswordChange}
           />
         </div>
-
+        {!passwordLengthMatch && (
+          <p style={{ color: "red" }}>Minimum length should be 8</p>
+        )}
         <div className="userForm-ConfirmPassword my-1">
           <label htmlFor="confirm password">Confirm Password:</label>
           <input
@@ -270,7 +291,12 @@ export default function UserForm(props) {
           </div>
           <div className="profile-preview">
             {SelectedImage && (
-              <img alt="userImage" src={SelectedImage} width="100" height="100" />
+              <img
+                alt="userImage"
+                src={SelectedImage}
+                width="100"
+                height="100"
+              />
             )}
           </div>
         </div>
